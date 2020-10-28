@@ -1,9 +1,16 @@
 {
     "name": "Nextjs PWA",
     "short_name": "Nextjs PWA",
-    "theme_color": "#000000",
-    "background_color": "#000000",
+    "description": "Nextjs PWA",
+    "start_url": "/",
     "display": "standalone",
-    "scope": "/",
-    "start_url": "/"
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "icons": [
+        {
+            "src": "./assets/icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
 }
